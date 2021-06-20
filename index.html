@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <!-- CODE FOR FORM -->
+
+
+
+    <form action="" method="GET">
+        <h1>My Bio Data</h1>
+        <div>
+            <fieldset class="per">
+                <legend>Personal Information</legend>
+                <div id="first"><label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" required></div>
+
+                <div id="last">
+                    <label id for="lastname">Last Name: </label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required> <br><br>
+                </div>
+
+                <span id="em">
+                    <label for="email"> E-mail : </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email"> <br><br>
+                </span>
+
+
+                <div id="ph"><label for="phone">Phone : </label>
+                    <input type="number" name="phone" id="phone" placeholder="+91" required> <br><br></div>
+
+                <div id="hei"> <label for="height">Height</label>
+                    <input type="number" name="height" id="height" placeholder="Enter in Feet"> <br><br></div>
+
+
+                <div id="do"><label for="dob">DOB : </label>
+                    <input type="date" name="dob" id="dob"> <br><br>
+                </div>
+
+                <div id="gen">
+                    <label for="Gender">Gender : </label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="other">Others</label>
+                    <input type="radio" name="gender" id="other" value="other"> <br><br></div>
+
+            </fieldset>
+
+
+            <fieldset class=edu>
+                <legend>Education</legend>
+                <div id="sch">
+                    <label for="school">School Name : </label>
+                    <input type="text" name="school" id="school" placeholder="School Name"> <br><br>
+                </div>
+
+                <div id="cls"><label for="class">Class : </label>
+                    <input type="number" name="class" id="class" placeholder="Enter Class"> <br><br>
+                </div>
+                <div id="str"> <label for="stream">Stream : </label>
+                    <select name="stream" id="stream">
+                        <option value="stream">Stream</option>
+                        <option value="pcm+cs">PCM+CS</option>
+                        <option value="pcmb">PCMB</option>
+                        <option value="pcb">PCB</option>
+                        <option value="commerce">Commerce</option>
+                        <option value="arts">Arts</option>
+                        <option value="humn">Humanities</option>
+                    </select>
+                    <br><br></div>
+
+                <div id="mark"><label for="marksheet">Marksheet : </label>
+                    <input type="file" name="marksheet" id="markseet"><br><br>
+                    <button id="btn">Submit</button>
+
+            </fieldset> <br>
+        </div>
+    </form><br><br>
+
+
+
+    <!-- CODE FOR TIME TABLE -->
+
+
+    <h1>This is Time Table</h1>
+    <section>
+        <table bgcolor="#ccc" border="5" cellspacing="10" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Days/Periods</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th></th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mon</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="h1">Hindi</td>
+                <td rowspan="7">BREAK</td>
+                <td class="m1">Maths</td>
+                <td class="g1">Games</td>
+                <td class="ms">Moral Science</td>
+
+
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="h1">Hindi</td>
+                <td class="m1">Maths</td>
+                <td class="g1">Games</td>
+                <td class="ms">Moral Science</td>
+
+
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="h1" rowspan="3">Hindi</td>
+                <td class="m1">Maths</td>
+                <td class="g1">Games</td>
+                <td class="ms">Moral Science</td>
+
+
+            </tr>
+            <tr>
+                <td> Thu</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="m1">Maths</td>
+                <td class="g1">Games</td>
+                <td class="ms">Moral Science</td>
+
+
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="m1">Maths</td>
+                <td class="g1">Games</td>
+                <td class="ms">Moral Science</td>
+
+
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td class="s1">Science</td>
+                <td class="e1">English</td>
+                <td class="h1">Hindi</td>
+
+                <td class="m1" colspan="5">Maths</td>
+
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <center>
+                        <td class=" foot" colspan="10">This is class VIII</td>
+                    </center>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+    </section>
+
+
+</body>
+
+</html>
