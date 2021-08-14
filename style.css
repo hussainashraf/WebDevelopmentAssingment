@@ -1,278 +1,49 @@
-h1 {
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    height: 25vh;
+}
+
+#A{
+    background: #B8C1C8;
+    position: sticky;
+    top: 5px;
+    border: 10px;
+    margin: 2px;
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+    padding: 2px 0 0 12px;
+    color:black;
+    list-style: inside "\260E";
+    
+    
+}
+
+section{
+    border-left: 7px solid darkblue;
+    border-top: 5px solid darkblue;
+    border-right: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+    width: 30vw;
+    margin: 30px auto;
+    padding: 10px;
+  
+ 
+
+}
+
+
+li{
+    
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+    border-bottom: 1px dotted grey;
+    line-height: 1.5;
+
+
+}
+
+h1{
     text-align: center;
-    font-family: 'Arvo', serif;
-    color: #00EAD3;
-    /* background-color: lightblue; */
-
-}
-
-.per {
-    border: 2px solid white;
-}
-
-.edu {
-    border: 2px solid white;
-}
-
-legend {
-    color: white;
-}
-
-div {
-    background-image: url("https://media.istockphoto.com/photos/blue-abstract-gradient-background-texture-picture-id1203084165?b=1&k=6&m=1203084165&s=170667a&w=0&h=STdbBAvGPWh4lVnDU_FdVHP1SKQZN29ZhKWWkHbfqAU=");
-    display: inline-block;
-    background-size: cover;
-    /* text-align: left; */
-    width: 100%;
-    padding: 3px;
-    margin-top: 10px;
-    /* margin-right: ; */
-}
-
-
-
-
-#firstname {
-    border-radius: 13px;
-    padding: 5px;
-    /* padding-left: 3px;  */
-    width: 200px;
-    height: 13px;
-    display: inline-block;
-
-}
-
-#lastname {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-    display: inline-block;
-    margin-left: 5px;
-    /* /margin-top: 1px; */
-    /* top: 40px; */
-
-}
-
-#dob {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-    margin-left: 20px;
-}
-
-#email {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-    margin-left: 20px;
-    margin-top: 1px;
-
-}
-
-#phone {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-    margin-left: 20px;
-}
-
-#height {
-    border-radius: 13px;
-    padding: 5px;
-    width: 202px;
-    height: 13px;
-    margin-left: 20px;
-}
-
-#school {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-
-}
-
-#class {
-    border-radius: 13px;
-    padding: 5px;
-    width: 200px;
-    height: 13px;
-    margin-left: 50px;
-}
-
-#stream {
-    border-radius: 13px;
-    padding: 5px;
-    width: 210px;
-    height: 25px;
-    margin-left: 40px;
-}
-
-#marksheet {
-    border-radius: 13px;
-    padding: 5px;
-    width: 20px;
-    height: 25px;
-    margin-left: 100px;
-}
-
-
-#first {
-    display: inline;
-    position: relative;
-    padding-top: 2px;
-    margin-left: 6px;
-    padding-left: 0px;
-    color: white;
-
-}
-
-#last {
-
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 30px;
-    color: white;
-    /* padding-left: 1px; */
-
-}
-
-#em {
-    display: inline;
-    position: relative;
-    padding: 8px;
-    width: 100vw;
-    color: white;
-
-
-
-}
-
-#ph {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 8px;
-    color: white;
-}
-
-
-#hei {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 8px;
-    color: white;
-}
-
-#do {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 8px;
-    color: white;
-}
-
-#gen {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 8px;
-    color: white;
-}
-
-#sch {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 1px;
-    color: white;
-}
-
-#cls {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 1px;
-    color: white;
-}
-
-#str {
-    display: inline;
-    position: relative;
-    padding: 0px;
-    width: 96vw;
-    margin-left: 1px;
-    color: white;
-}
-
-#mark {
-    display: block;
-    position: relative;
-    /* padding:px; */
-    /* height: 10px; */
-    margin-left: 1px;
-    color: white;
-    width: 80vw;
-}
-
-#btn:hover {
-    background-color: black;
-    color: white;
-
-}
-
-#btn {
-    display: inline;
-    padding: 5px;
-    /* border-radius: 13px; */
-    width: 100px;
-}
-
-section {
-    align-items: center;
-    position: absolute;
-    left: 25%;
-
-}
-
-.s1 {
-    color: red;
-}
-
-.e1 {
-    color: blue;
-}
-
-.h1 {
-    color: green;
-}
-
-.m1 {
-    color: #7B113A;
-}
-
-.g1 {
-    color: #C84B31;
-}
-
-.ms {
-    color: #02475E;
-}
-
-.foot {
-    text-align: center;
-    font-weight: bold;
+    color: #BB4430;
 }
