@@ -1,41 +1,119 @@
-button{
- 
-    position: absolute;
-    /* margin-left:  630px;
-    margin-top: 250px; */
-  
-    border-color: orangered;
-    color: orangered;
-    background-color: black;
-    transition-duration: 900ms;
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 100px;
-    height: 35px;
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-body{
-    background-color: black;
-}
-
-button:hover{
-    border-color: greenyellow;
-    color: greenyellow;
-    transform: scale(1.02);
-    box-shadow: 0px 1px 4px greenyellow; 
-}
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-div {
-    margin: auto;
-    width: 100px;
-    height: 35px;
-    padding: 10px;
-    margin-top: 250px;
-  }
+body{
+    background-image: url('clear.jpg');
+    overflow:hidden;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240,248,255,0.6);
+    padding: 20px;
+    text-align: center;
+    /* transition-delay: 2s; */
+
+}
+/* SELECT ALL CHILD OF class */
+.app-main > *{
+    margin-bottom: 20px; 
+
+}
+
+.input-box{
+    width: 100%;
+    background-color: lightgreen;
+    border: none;
+    outline: none; 
+    color:black;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    /* padding: 0 10px; */
+    text-align: center;
+
+}
+#submit{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 50px;
+        border-radius: 8px;
+        margin-top: 8px;
+        background-color: grey;
+        transition-duration: 2s;
+}
+#submit span{
+   font-size: 1.5rem;
+   font-family:'Glory', sans-serif;
+   font-weight: 500; 
+    margin: 10px auto;
+}
+#submit:hover{
+    background-color:#edf2f4;
+}
+
+.input-box:focus{
+    background-color: #112031;
+    color: white;
+    
+}
+
+.res{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.weather-body{
+    display: none;
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(240,248,255,0.6);
+    height: 50vh;
+    /* display: flex; */
+   
+    /* transition-delay: ; */
+
+}
+
+.location-details{
+    font-weight: bold;
+
+}
+
+.weather-status{
+    padding: 20px;
+
+}
+
+.temp{
+    font-size:50pt;
+    font-weight: 700;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max{
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.weather{
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
